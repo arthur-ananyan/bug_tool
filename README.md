@@ -14,3 +14,12 @@ the application accepts json body for all the post, get, put and delete requests
 
 -to create a comment send post request with required fields to http://127.0.0.1:8000/comment/
 -to delete a comment send delete request with bug id to http://127.0.0.1:8000/comment/id/
+
+
+Tech Stack is Python 3.8.8
+
+asgiref==3.5.0
+Django==3.1.3
+djangorestframework==3.12.3
+pytz==2021.3
+sqlparse==0.4.2
